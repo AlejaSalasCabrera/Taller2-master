@@ -6,18 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:padding="15dp"
+    android:padding="10dp"
     android:background="@drawable/border_radius">
 
+    
     <RelativeLayout
         android:id="@+id/rl_imageCountry"
-        android:layout_width="160dp"
-        android:layout_height="190dp"
+        android:layout_width="100dp"
+        android:layout_height="143dp"
         android:background="@drawable/border"
         android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="15dp"
         >
 
         <ImageView
@@ -48,14 +49,14 @@
                 android:layout_height="wrap_content"
                 android:text="Pais:"
                 android:textStyle="bold"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"/>
             <TextView
                 android:id="@+id/id_tv_item_namecountry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -68,14 +69,14 @@
                 android:layout_height="wrap_content"
                 android:text="Capital:"
                 android:textStyle="bold"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"/>
             <TextView
                 android:id="@+id/id_tv_item_namecapital"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -88,14 +89,14 @@
                 android:layout_height="wrap_content"
                 android:text="Abreviatura:"
                 android:textStyle="bold"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"/>
             <TextView
                 android:id="@+id/id_tv_item_nameabbreviation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -108,14 +109,14 @@
                 android:layout_height="wrap_content"
                 android:text="Poblacion:"
                 android:textStyle="bold"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"/>
             <TextView
                 android:id="@+id/id_tv_item_namepopulation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -128,14 +129,14 @@
                 android:layout_height="wrap_content"
                 android:text="Gentilicio:"
                 android:textStyle="bold"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"/>
             <TextView
                 android:id="@+id/id_tv_item_namedemonym"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -147,14 +148,14 @@
             android:layout_toRightOf="@id/rl_imageCountry"
             android:background="@drawable/border_tres"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="8dp"
             android:paddingBottom="10dp"
             >
 
             <ImageView
                 android:id="@+id/img_time"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/icons8_minutero_96"
                 android:layout_marginRight="10dp"
                 />
@@ -166,13 +167,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:textColor="@android:color/black"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/img_time"
                 />
-
-
 
 
         </RelativeLayout>
@@ -182,8 +181,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@id/rl_imageCountry"
+        android:layout_below="@id/linear_content"
+
         android:background="@drawable/border"
+        android:layout_marginBottom="15dp"
         >
 
         <ImageView
@@ -213,10 +214,6 @@
             />
 
     </LinearLayout>
-
-
-
-
 
 
 
